@@ -1,3 +1,4 @@
+const conteiner=document.querySelector('.conteiner')
 const iniciox=document.querySelector('#iniciox')
 const inicioy=document.querySelector('#inicioy')
 const destinox=document.querySelector('#destinox')
@@ -14,6 +15,7 @@ const nivel3=document.querySelector('#nivel3')
 const nivel4=document.querySelector('#nivel4')
 const nivel5=document.querySelector('#nivel5')
 const result=document.querySelector('.result')
+const form=document.querySelector('.form')
 
 const velMercante=10.4164
 const velFlotaLigera=5.5554
@@ -105,7 +107,6 @@ function calcular(){
                     mostrarTiempo=mostrarTiempo+horas+" h "
                 }
                 mostrarTiempo=mostrarTiempo+minutos+" m "+segundos+" s"
-                
                 result.innerHTML=mostrarTiempo
                 iniciox.value=null
                 inicioy.value=null

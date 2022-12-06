@@ -19,11 +19,14 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
+.inactive{
+    display: none;
+}
 .container{
     display: flex;
     border: 1px solid var(--bd-color);
@@ -77,6 +80,9 @@ body{
 }
 .pose *{ 
     margin: 0 2px;
+}
+.login{
+    margin-top: 20px;
 }
 .result{
     display: flex;
